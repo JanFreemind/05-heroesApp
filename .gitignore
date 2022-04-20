@@ -42,3 +42,4 @@ testem.log
 Thumbs.db
 package-lock.json
 
+src/app/heroes/pages/listado/listado.component_BACKUP_239.ts
