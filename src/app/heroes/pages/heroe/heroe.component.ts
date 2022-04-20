@@ -13,7 +13,8 @@ export class HeroeComponent implements OnInit {
   
   ngOnInit(): void {
 
-    this.activatedRoute.params.subscribe( console.log )
+    this.activatedRoute.params
+        .subscribe( ({ id }) => console.log( id )  )
 
   }
 
