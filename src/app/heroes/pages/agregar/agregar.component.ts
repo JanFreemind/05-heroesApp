@@ -11,6 +11,7 @@ export class AgregarComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log('Test');
   }
 
 }
