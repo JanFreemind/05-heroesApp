@@ -8,7 +8,11 @@ import { Heroe } from '../../interfaces/heroes.interface';
 @Component({
   selector: 'app-heroe',
   templateUrl: './heroe.component.html',
-  styles: [
+  styles: [`
+  img {
+    width:100%;
+  }
+  `
   ]
 })
 export class HeroeComponent implements OnInit {
